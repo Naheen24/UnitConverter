@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/unit_converter"
+        android:textColor="#E81616"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/text1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:text="KG To Gram" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/button1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="54dp"
+        android:text="Gram To KG" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/button2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="54dp"
+        android:text="Meter To Cm" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/button3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="54dp"
+        android:text="Cm To Meter" />
+
+
+
+</RelativeLayout>
